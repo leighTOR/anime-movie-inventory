@@ -1,0 +1,51 @@
+/* Root container: violet gradient background, white text, clean font */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #7a44c2, #3e2164);
+    -fx-font-family: "Segoe UI", Roboto, sans-serif;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* TableView background and text color */
+.table-view {
+    -fx-background-color: #FFFFFF;       /* Table area is white */
+    -fx-text-fill: #000000;             /* Table text is black */
+}
+
+/* Column headers: a lighter violet gradient with white text */
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #522980, #3e2164;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Table cells: black text on white */
+.table-view .cell {
+    -fx-text-fill: #000000;
+}
+
+/* Text fields: light violet/grey background, black text */
+.text-field {
+    -fx-background-color: #EEEAFD;
+    -fx-text-fill: #000000;
+}
+
+/* Buttons: solid violet with white text, bold, slight drop shadow */
+.button {
+    -fx-background-color: #8f51da;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 3, 0, 0, 2);
+}
+
+/* Regular labels are white text (in case they're placed on the violet background) */
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+/* A special ID for the message label (status text) */
+#messageLabel {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffebcd;  /* a light “blanched almond” color for contrast, or #ffffff if you prefer pure white */
+    -fx-padding: 5 0 0 0;
+}

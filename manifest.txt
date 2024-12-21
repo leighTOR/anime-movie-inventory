@@ -1,0 +1,2 @@
+Main-Class: MainApp
+Class-Path: lib/sqlite-jdbc-3.47.1.0.jar

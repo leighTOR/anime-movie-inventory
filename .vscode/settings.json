@@ -1,0 +1,8 @@
+{
+    // Tells VS Code to pick up all JARs in your JavaFX lib folder
+    "java.project.referencedLibraries": [
+      "C:\\javafx-sdk-17.0.13\\lib\\*.jar",
+      "lib/**/*.jar"
+    ]
+  }
+  
